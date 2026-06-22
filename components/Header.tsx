@@ -35,18 +35,16 @@ export default function Header() {
         }`}
       >
         <a href="#top" data-cursor="link" className="flex items-center gap-2.5">
-          <span className="relative h-9 w-9 overflow-hidden rounded-lg">
+          <span className="relative h-25 w-45 overflow-hidden rounded-lg">
             <Image
               src="/logo.png"
               alt="TheMacSoft logo"
               fill
-              sizes="36px"
+              sizes="100px"
               className="object-contain"
             />
           </span>
-          <span className="font-display text-lg font-bold tracking-tight text-ink">
-            THE<span className="text-gradient">MACSOFT</span>
-          </span>
+        
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

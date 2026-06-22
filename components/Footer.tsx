@@ -28,12 +28,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div>
             <a href="#top" data-cursor="link" className="flex items-center gap-2.5">
-              <span className="relative h-9 w-9 overflow-hidden rounded-lg">
+              <span className="relative h-25 w-45 overflow-hidden rounded-lg">
                 <Image src="/logo.png" alt="TheMacSoft logo" fill sizes="36px" className="object-contain" />
               </span>
-              <span className="font-display text-lg font-bold tracking-tight text-ink">
-                THE<span className="text-gradient">MACSOFT</span>
-              </span>
+             
             </a>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
               Turning your ideas into digital masterpieces — IT consulting, custom
@@ -83,7 +81,7 @@ export default function Footer() {
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-line pt-6 text-xs text-muted md:flex-row">
           <p>© {new Date().getFullYear()} TheMacSoft. All rights reserved.</p>
           <p className="font-mono text-[11px] uppercase tracking-wider text-muted/70">
-            Built with Next.js · Engineered by TheMacSoft
+             Engineered by TheMacSoft
           </p>
         </div>
       </div>

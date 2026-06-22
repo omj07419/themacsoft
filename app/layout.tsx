@@ -28,6 +28,13 @@ export const metadata: Metadata = {
   title: "TheMacSoft — IT Consulting, Software Engineering & AI Solutions",
   description:
     "TheMacSoft delivers cutting-edge IT consulting, custom software engineering, and AI-powered analytics that turn complex business problems into clear, scalable solutions.",
+      alternates: {
+    canonical: "https://themacsoft.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   icons: {
     icon: "/site_icon.png",
   },
@@ -54,6 +61,22 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "TheMacSoft",
+      url: "https://themacsoft.com",
+      logo: "https://themacsoft.com/logo.png",
+      email: "info@themacsoft.com",
+      description:
+        "IT consulting, custom software development, and AI solutions.",
+    }),
+  }}
+/>
       </body>
     </html>
   );

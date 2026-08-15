@@ -5,13 +5,7 @@ import { ArrowUpRight, Quote } from "lucide-react";
 import { SectionHeading } from "./ServicesBento";
 
 const CASES = [
-  {
-    name: "Ceasar's Solitude Camps",
-    tag: "Hospitality · Resorts",
-    quote:
-      "A simple, low-budget website for our campsite that exceeded expectations — beautiful, user-friendly, and loved by every visitor.",
-    href: "https://ceasarssolitudecamps.com/",
-  },
+
   {
     name: "DSK Industries",
     tag: "Import & Export",
@@ -19,19 +13,19 @@ const CASES = [
       "A fast-turnaround website that showcases our toolworks for import and export without compromising on quality.",
     href: "https://dskint.com/",
   },
-  {
-    name: "Twisty Herb",
-    tag: "E-Commerce · Ayurveda · Healthcare",
-    quote:
-      "A feature-rich e-commerce store for our organic medicine business, delivered in record time with every requested feature in place.",
-    href: "https://twistyherb.com/",
-  },
    {
     name: "One Pets",
     tag: "E-Commerce · Vets · Pet",
     quote:
       "A market place where animal lovers meets sellers and buys, to meet the favourite pet they ever dreamed of.",
     href: "https://onepets.in/",
+  },
+   {
+    name: "And Many More",
+    tag: "Mail us to book you call at earliest",
+    quote:
+      "Send us mail at the earliest to publish your innovative ideas at market before anyone can imagine.",
+    href: "#contact",
   },
 ];
 

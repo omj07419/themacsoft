@@ -20,6 +20,13 @@ const CASES = [
       "A market place where animal lovers meets sellers and buys, to meet the favourite pet they ever dreamed of.",
     href: "https://onepets.in/",
   },
+  {
+    name: "Ceasars Solitude Camps",
+    tag: "Camping · Stays · Adventure",
+    quote:
+      "A perfect stay for the hiking and nature lovers , so that they can find the solitude in mountains where god's resides.",
+    href: "https://ceasarssolitudecamps.com/",
+  },
    {
     name: "And Many More",
     tag: "Mail us to book you call at earliest",
